@@ -1,0 +1,76 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(/Images/b6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: nate 30s infinite ease-in-out;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.title {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.title {
+    color: rgb(40, 180, 195);
+}
+
+.class:hover{
+    background: #034e88;
+    color: #fff;
+}
+@keyframes nate{
+    0% {
+        background-image: url(/Images/b1.jpeg);
+    }
+    20% {
+        background-image: url(/Images/b2.jpeg);
+    }
+    40% {
+        background-image: url(/Images/b3.jpeg);
+    }
+    60% {
+        background-image: url(/Images/b4.jpeg);
+    }
+    80% {
+        background-image: url(/Images/b5.jpeg);
+    }
+    100% {
+        background-image: url(/Images/b6.jpeg);
+    }
+}
+
+.title {
+    animation: animate 30s infinite ease-in-out;
+}
+
+@keyframes animate{
+    0%
+    {
+        transform: matrix3d(50px);
+    }
+    50%
+    {
+        transform: matrix3d(0px);
+    }
+}
